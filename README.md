@@ -1,0 +1,3 @@
+Responsive Portfolio
+
+This assignment really pushed my knowledge and understanding of HTML, CSS, JavaScript, and Bootstrap. The site is most definetly not perfect but I really enjoy and am proud of a majority of the things that I accomplished. I am frustrated that for the life of me I could not figure out why my links where not showing up on my navigation bar when the site was in mobile, but are there and work when it is not. If you hover your mouse of the navigation side bar the links are there and work but you just can't see them. The other frustration I had was with my home/main page where I couldn't get my layout with a picture and text to work together properly, thus just the picture is what is there now. 
