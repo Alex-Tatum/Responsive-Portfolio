@@ -1,3 +1,4 @@
+/* Navigation CSS */
 *{
     margin: 0px;
     padding: 0px;
@@ -37,6 +38,8 @@ nav{
 
 .nav-links li{
     list-style: none;
+    color: rgb(253,245,254);
+
 }
 
 .burger{
@@ -53,6 +56,7 @@ nav{
 @media screen and (max-width:1024px){
     .nav-links{
         width:60px;
+        color: rgb(253,254,254);
     }
 }
 
@@ -77,7 +81,7 @@ nav{
 
 
     .nav-links li{
-        opacity: 0;
+        opacity: 50;
     }
     .burger{
         display: block;
@@ -101,7 +105,7 @@ nav{
 
 }
 
-
+/* Portfolio CSS */
 body {
     margin: 0;
     background: #B6E3D0;
@@ -128,7 +132,6 @@ body {
   }
   
   body {
-    padding: 20px;
     font-family: Arial;
   }
   
@@ -142,6 +145,7 @@ body {
     font-size: 50px;
     word-break: break-all;
     text-align: center;
+    color: White;
   }
   
   .row {
@@ -203,4 +207,40 @@ h4{
     text-align: justify;
     position: relative;
    
+}
+
+.portfolio-resume-spacing {
+  margin-bottom: 2rem;
+}
+
+.portfolio-resume-wrapper {
+  padding: 2rem 4rem;
+}
+
+.portfolio-resume-headshot {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
+.portfolio-resume-header {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.portfolio-resume-contact-info {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-resume-contact-info a {
+  color: #0a0a0a;
+}
+
+.portfolio-resume-contact-info .fa {
+  font-size: 1.4rem;
+  padding-right: 0.8rem;
+  vertical-align: middle;
+  color: #0a0a0a;
 }
