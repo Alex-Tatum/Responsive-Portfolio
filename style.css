@@ -73,7 +73,7 @@ body {
   
   /* Portfolio Hero */
   .marketing-site-hero {
-    background: url("../Homework2/images/home2.jpg") top right no-repeat;
+    background: url("../Homework2/images/home2.JPG") top right no-repeat;
     height: 65vh;
     background-size: cover;
     display: -webkit-flex;
@@ -150,7 +150,7 @@ body {
   
   /* Portfolio CSS */
   .marketing-site-hero-jobs {
-    background: url("../Homework2/images/Contact3.jpg") top right no-repeat;
+    background: url("../Homework2/images/Contact3.JPG") top right no-repeat;
     border-bottom: 5px solid white;
     height: 65vh;
     background-size: cover;
@@ -202,7 +202,7 @@ body {
   }
  /*Contact CSS*/
  .marketing-site-hero-contact {
-  background: url("../Homework2/images/Contact2.jpg") top right no-repeat;
+  background: url("../Homework2/images/Contact2.JPG") top right no-repeat;
   height: 65vh;
   background-size: cover;
   display: -webkit-flex;
