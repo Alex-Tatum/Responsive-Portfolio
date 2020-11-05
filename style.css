@@ -1,246 +1,245 @@
+#about-me {
+  margin: 30px;
+}
+
+#profile-pic {
+  display: block;
+  border-radius: 30%;
+  margin: 0 auto;
+
+}
+
+#about-me-heading {
+  padding-top: 10px;
+}
+
+
 /* Navigation CSS */
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(148, 147, 147);
-}
-
-.logo{
-    color: rgb(253,254,254);
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 22px;
-
-}
-
-.nav-links{
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
-}
-
-.nav-links a{
-    color: rgb(253,254,254);
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.nav-links li{
-    list-style: none;
-    color: rgb(253,245,254);
-
-}
-
-.burger{
-    display: none;
-}
-
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: rgb(253,254,254);
-    margin: 5px;
-}
-
-@media screen and (max-width:1024px){
-    .nav-links{
-        width:60px;
-        color: rgb(253,254,254);
-    }
-}
-
-@media screen and (max-width: 768px){
-    body{
-        overflow-x: hidden;
-    }
-    
-    .nav-links{
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        transform: translateX(100%);
-        background-color: rgb(148, 147, 147);
-        
-    }
-
-
-    .nav-links li{
-        opacity: 50;
-    }
-    .burger{
-        display: block;
-        cursor: pointer;
-    }
-}
-
-.nav-active{
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-
-}
-
-/* Portfolio CSS */
 body {
-    margin: 0;
-    background: #B6E3D0;
-    font-family: sans-serif;
-    
+  min-height: 75rem;
+  background-color: #B6E3D0;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 15px 50px 30px 5px;
-  background: rgb(148, 147, 147);
+/*social media buttons*/
+.fab {
   padding: 20px;
-  width: 400px;
-  height: 200px;
-}
-
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-  }
-  
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  h2 {
-    font-size: 50px;
-    word-break: break-all;
-    text-align: center;
-    color: White;
-  }
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color: rgb(148, 147, 147);
-    padding: 10px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-
-.responsive {
-    width: 20%;
-    height: auto;
-     height: auto;
-     display: flex;
-     position: static;
-     top: 15%;
-     left: 10%;
-     float:left;
-  }
-
-h4{
-    text-align: justify;
-    position: relative;
-   
-}
-
-.portfolio-resume-spacing {
-  margin-bottom: 2rem;
-}
-
-.portfolio-resume-wrapper {
-  padding: 2rem 4rem;
-}
-
-.portfolio-resume-headshot {
-  margin-bottom: 2rem;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
   border-radius: 50%;
+  
 }
 
-.portfolio-resume-header {
+
+
+/* Home Page Heros */
+  .subnav-hero-section .subnav-hero-headline {
+    color: #fefefe;
+  }
+  
+  .subnav-hero-subnav {
+    float: none;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .subnav-hero-subnav li {
+    float: none;
+    display: inline-block;
+  }
+  
+  .subnav-hero-subnav li a {
+    padding: 0.9rem 1rem;
+    font-size: 0.75rem;
+    color: #fefefe;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.35s ease-in-out;
+  }
+  
+  .subnav-hero-subnav li a.is-active {
+    background: rgba(254, 254, 254, 0.15);
+  }
+  
+  .subnav-hero-subnav li a:hover {
+    background: rgba(254, 254, 254, 0.15);
+  }
+  
+  /* Portfolio Hero */
+  .marketing-site-hero {
+    background: url("../Homework2/images/home2.jpg") top right no-repeat;
+    height: 65vh;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero {
+      background-position: center center;
+    }
+  }
+  
+  .marketing-site-hero-content {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-left: 0%;
+    padding-right: 50%;
+  }
+  
+  .marketing-site-hero-content h1 {
+    font-size: 32px;
+    color:rgb(148, 147, 147) ;
+    font-weight: bolder;
+  }
+  
+  .subheader-home {
+    color:rgb(148, 147, 147) ;
+    font-size: 24px;
+  }
+  
+ 
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero-content {
+      padding-left: 20%;
+    }
+  }
+  
+  /* About Me Div */
+ .about-me {
+    padding-top: 5px;
+ }
+
+.seperator-right {
+  padding: 30px;
+}
+ .about-the-author {
+  background-color:#95A5A6 ;
+  padding: 1rem;
+
+}
+
+.about-the-author .separator-left {
+  text-align: left;
+
+}
+
+
+
+.about-the-author .author-title {
   text-transform: uppercase;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e6e6e6;
-  font-weight: bold;
-  margin-bottom: 1rem;
 }
 
-.portfolio-resume-contact-info {
-  margin-bottom: 0.75rem;
+
+.about-the-author .author-image {
+
+  text-align: center;
 }
 
-.portfolio-resume-contact-info a {
-  color: #0a0a0a;
+
+  
+  /* Portfolio CSS */
+  .marketing-site-hero-jobs {
+    background: url("../Homework2/images/Contact3.jpg") top right no-repeat;
+    border-bottom: 5px solid white;
+    height: 65vh;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero-jobs {
+      background-position: center center;
+    }
+  }
+  
+  .marketing-site-hero-content-jobs {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding-left: 60%;
+    padding-right: 0%;
+  }
+  
+  .marketing-site-hero-content-jobs h1 {
+    font-size: 32px;
+    color: #354E6B;
+    font-weight: bolder;
+  }
+  
+  .subheader {
+    color: rgb(148, 147, 147);
+    font-size: 24px;
+  }
+  
+  .marketing-site-hero-content-jobs .button.round {
+    border-radius: 5000px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0;
+    background-color: #354E6B;
+    font-weight: bold;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero-content-jobs {
+      padding-right: 10%;
+    }
+  }
+ /*Contact CSS*/
+ .marketing-site-hero-contact {
+  background: url("../Homework2/images/Contact2.jpg") top right no-repeat;
+  height: 65vh;
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.portfolio-resume-contact-info .fa {
-  font-size: 1.4rem;
-  padding-right: 0.8rem;
-  vertical-align: middle;
-  color: #0a0a0a;
+@media screen and (min-width: 40em) {
+  .marketing-site-hero {
+    background-position: center center;
+  }
+}
+
+.marketing-site-hero-content-contact {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding-left: 0%;
+  padding-right: 50%;
+}
+
+.marketing-site-hero-content-contact h1 {
+  font-size: 32px;
+  color:rgb(148, 147, 147) ;
+  font-weight: bolder;
+}
+
+.subheader-home {
+  color:rgb(148, 147, 147) ;
+  font-size: 24px;
+}
+
+
+@media screen and (min-width: 40em) {
+  .marketing-site-hero-content {
+    padding-left: 20%;
+  }
 }

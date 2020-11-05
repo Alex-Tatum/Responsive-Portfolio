@@ -4,86 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
-    <nav>
-        <div class="logo">
-          <h4>Alex Tatum</h4>
-        </div>
-        
-        <ul class="nav-links">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-  <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-  </div>
+<body2>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Alex Tatum</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
   </nav>
 
+
   <div class="main">
-
+  
+          <!---Portfolio Hero-->
+            <div class="marketing-site-hero-jobs">
+            <div class="marketing-site-hero-content">
+              <h1>Welcome!</h1>
+              <p class="subheader">Take a glance at my work!</p>
+            </div>
+          </div>
     
-    <hr>
+    <div class="album py-5 style="background-color= #B6E3D0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="WeatherApp.png" class="img-fluid" alt="Weather App">
+              <div class="card-body">
+                <p class="card-text">This weather app allows the user to search a city and recieve the current weather and the 5-day forecast.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Alex-Tatum/WeatherApp"><button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                    <a href="https://alex-tatum.github.io/WeatherApp/"><button type="button" class="btn btn-sm btn-outline-secondary">Live Site</button></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="dailyplanner.png" class="img-fluid" alt="Daily Planner">
+              <div class="card-body">
+                <p class="card-text">The work day planner allows the user to plan their day by the hour, refresh the page with no worries about losing their event, and changes colors based on past, present, and future times to show you where you're at for the day.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Alex-Tatum/DayPlanner"><button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                    <a href="https://alex-tatum.github.io/DayPlanner/"><button type="button" class="btn btn-sm btn-outline-secondary">Live Site</button></a>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="Tech.It.png" class="img-fluid" alt="Tech.It web page">
+              <div class="card-body">
+                <p class="card-text">Tech.It is a website that allows developers to get the newest news in technology as well as job postings in their field.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/StudyGroup2021/tech.it"><button type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                      <a href="https://studygroup2021.github.io/tech.it/"><button type="button" class="btn btn-sm btn-outline-secondary">Live Site</button></a>
+                  </div>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+          
     
-    <h2>PORTFOLIO</h2>
     
-    
-    <!-- Portfolio Gallery Grid -->
-    <div class="row">
-      <div class="column">
-        <div class="content">
-          <img src="WeatherApp.png" alt="Weather App" style="width:100%">
-          <h3 style="color:white;">Weather App</h3>
-          <p style="color: white;">Allows you to search the weather.</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="content">
-          <img src="dailyplanner.png" alt="Daily Planner" style="width:100%">
-          <h3 style="color: white;">Daily Planner</h3>
-          <p style="color: white;">Allows you to keep events on page, changes color with time.</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="content">
-          <img src="PasswordGenerator.png" alt="Password Generator" style="width:100%">
-          <h3 style="color: white;" >Password Generator</h3>
-          <p style="color: white;">Creates random passwords with specific requirements.</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="content">
-          <img src="grey.jpg" alt="Mountains" style="width:100%">
-          <h3 style="color: white;" >My Work</h3>
-          <p style="color: white;">Lorem ipsum..</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="content">
-      <img src="Tech.It.png" alt="Tech.It" style="width:100%">
-      <h3 style="color: white;">Tech.It</h3>
-      <p style="color: white;">An application for Technology news and jobs.</p>
-    </div>
-    
-    <!-- END MAIN -->
-    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 
 
-<script src="app.js"></script>
-
-
-</body>
+</body2>
 </html>
