@@ -31,9 +31,9 @@ If you are opting out of career services, this is _still a required assignment_.
 * Link to live code: https://alex-tatum.github.io/Responsive-Portfolio/
 
 ## ScreenShots
-![Images/ScreenshotHome.png](Images/ScreenshotHome.png)
-![Images/PortfolioPage.png](Images/PortfolioPage.png)
-![Images/ContactPage.png](Images/ContactPage.png)
+![/homework2/Images/ScreenshotHome.png](Images/ScreenshotHome.png)
+![/homework2/Images/PortfolioPage.png](Images/PortfolioPage.png)
+![/homework2/Images/ContactPage.png](Images/ContactPage.png)
 
 ## GitHuB Profile Updated
 
