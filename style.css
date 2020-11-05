@@ -73,7 +73,7 @@ body {
   
   /* Portfolio Hero */
   .marketing-site-hero {
-    background: url("../images/home2.jpg") top right no-repeat;
+    background: url("../Homework2/images/home2.jpg") top right no-repeat;
     height: 65vh;
     background-size: cover;
     display: -webkit-flex;
