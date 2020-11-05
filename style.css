@@ -150,7 +150,7 @@ body {
   
   /* Portfolio CSS */
   .marketing-site-hero-jobs {
-    background: url("../Homework2/images/Contact3.jpg") top right no-repeat;
+    background: url("../homework2/images/Contact3.jpg") top right no-repeat;
     border-bottom: 5px solid white;
     height: 65vh;
     background-size: cover;
